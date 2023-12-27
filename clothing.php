@@ -14,7 +14,7 @@
 <body>
     <div class="d-flex clothescontainer justify-content-center align-items-center">
         <div class="row innerclothescontainer justify-content-center align-items-center">
-            <div class="col-md">
+            <div class="col-md first">
                 <a href="#">
                     <figure>
                         <img src="images/IMG_8073_1195x.webp">
@@ -22,7 +22,7 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-md">
+            <div class="col-md second">
                 <a href="#">
                     <figure>
                         <img src="images/skate_board_tshirt-scaled.webp">

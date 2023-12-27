@@ -52,7 +52,7 @@
             <div class="title" style="border-bottom: 2px solid #1b272c">
                 <h1>Τα Μαγαζία Μας</h1>
             </div>
-            <img src="images/familliaskateshop.avif" style="width:75%">
+            <img src="images/familliaskateshop.avif" style="width:50%">
             <p class="lead">Τοποθεσία: Κρυστάλλη 39 Αθήνα 111 41</p>
             <p class="lead">Τηλέφωνο Επικοινωνίας:21 0572 2249 </p>
             <h4 class="w-50"style="border-bottom:2px solid black">Ωράριο Λειτουργίας</h4>
@@ -80,10 +80,4 @@
     </div>
     
 </body>
-
-<?php
-
-    include('footer.php')
-
-?>
 </html>

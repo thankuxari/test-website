@@ -81,8 +81,8 @@
                     <h4 class="w-25 mt-2" style="border-bottom:2px solid black;">Περισσότερες Πληροφορίες</h4>
                 </div>
                 <div class="d-flex flex-column">
-                    <a href="aboutus.php" style="text-decoration:none; color:black;">About Us</a>
-                    <a href="jobapplication.php" style="text-decoration:none; color:black;">Θέσεις Εργασίας</a>
+                    <a href="about.php" style="text-decoration:none; color:black;">About Us</a>
+                    <a href="job.php" style="text-decoration:none; color:black;">Θέσεις Εργασίας</a>
                 </div>
             </div>
         </div>

@@ -180,44 +180,44 @@ body{
         background: black;
     }
     
-    #radio1:checked ~ .first{
-        margin-left: 0;
-    }
-    #radio2:checked ~ .first{
-        margin-left: -20%;
-    }
-    #radio3:checked ~ .first{
-        margin-left: -40%;
-    }
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
         
-    .nav-auto{
-        position: absolute;
-        display: flex;
-        width: 800px;
-        justify-content: center;
-        margin-top: 460px;
-    }
+.nav-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
     
-    .nav-auto div{
-        border: 2px solid black;
-        padding: 5px;
-        border-radius: 10px;
-        transition: 1s;
-    }
+.nav-auto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
     
-    .nav-auto div:not(:last-child){
-        margin-right: 40px;
-    }
+.nav-auto div:not(:last-child){
+    margin-right: 40px;
+}
     
-    #radio1:checked ~ .nav-auto .auto-btn1{
-        background: black;
-    }
-    #radio2:checked ~ .nav-auto .auto-btn2{
-        background: black;
-    }
-    #radio3:checked ~ .nav-auto .auto-btn3{
-        background: black;
-    }
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background: black;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background: black;
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background: black;
+}
 
 
 .brandcontainer img{
@@ -243,24 +243,23 @@ body{
     border-radius: 0.2em;
 }
 
-    .innerclothescontainer figure img,
-    .innerskatecontainer figure img,
-    .accesoriescontainer figure img{
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
+.innerclothescontainer figure img,
+.innerskatecontainer figure img,
+.accesoriescontainer figure img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 
-    .innerclothescontainer figure:hover img,
-    .innerskatecontainer figure:hover img,
-    .accesoriescontainer figure:hover img{
-        -webkit-transform: scale(1.3);
-	    transform: scale(1.015);
-    }
+.innerclothescontainer figure:hover img,
+.innerskatecontainer figure:hover img,
+.accesoriescontainer figure:hover img{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.015);
+}
 
-.innerclothescontainer h1,
-.innerskatecontainer h1{
+.innerclothescontainer h1{
     font-family: 'Poppins';
     font-size: 2rem;
     color:#dee0de;
@@ -268,7 +267,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    top:80%;
+    top:85%;
     justify-content: start;
     align-items: center;
 }
@@ -302,9 +301,9 @@ footer .col-md-2 a{
 }
 
 
-    footer p:hover{
-        text-decoration: underline 2px solid black;
-    }
+footer p:hover{
+    text-decoration: underline 2px solid black;
+}
 
 
 .skateboardcontainer{
@@ -313,13 +312,13 @@ footer .col-md-2 a{
 
 .innerskatecontainer{
     width: 75%;
+    position: absolute;
 }
 
 .innerskatecontainer .col-md{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 
@@ -328,6 +327,14 @@ footer .col-md-2 a{
     height: 550px;
     object-fit: cover;
     border-radius: 0.2em;
+}
+
+.innerskatecontainer h1{
+    font-family: 'Poppins',sans-serif;
+    font-size:2rem;
+    color:black;
+    position: absolute;
+    top:80%;
 }
 
 .accesoriescontainer{
@@ -347,6 +354,3 @@ footer .col-md-2 a{
     justify-content: center;
     padding:1.3em;
 }
-
-
-

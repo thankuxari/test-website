@@ -15,7 +15,7 @@
    <div class="d-flex skateboardcontainer justify-content-center align-items-center">
         <div class="row innerskatecontainer">
             <div class="col-md">
-                <a href="skateboard_indexed.php">
+                <a href="#">
                     <figure>
                         <img src="images/pexels-salvio-bhering-58729.jpg">
                         <div class="clothestext"><h1><span>SHOP</span> SKATEBOARDS</h1></div>
@@ -23,7 +23,7 @@
                 </a>
             </div>
             <div class="col-md">
-                <a href="pennyboard.php">
+                <a href="#">
                     <figure>
                         <img src="images/10887997.jpg">
                         <div class="clothestext"><h1><span>SHOP</span> PENNYBOARDS</h1></div>
@@ -31,10 +31,10 @@
                 </a>
             </div>
             <div class="col-md">
-                <a href="longboard.php">
+                <a href="#">
                     <figure>
                         <img src="images/longboard-skateboard-sport-skateboarding-skating-young-leisure-man-jeans.jpg">
-                        <div class="clothestext"><h1><span>SHOP</span> LONGBOARDS</h1></div>
+                        <div class="clothestext"><h1><span>SHOP</span> PENNYBOARDS</h1></div>
                     </figure>
                 </a>
             </div>
