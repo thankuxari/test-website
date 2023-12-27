@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #dee0de;
+}
+
+.navbar .navbar-nav,
+.navbar .nav-item{
+    font-weight:bold;
+    font-size: 1.1rem;
+    font-family:'Poppins',sans-serif;
+}
+
+    .navbar .navbar-nav > li > a:hover,
+    .navbar .navbar-nav > li > a:focus,
+    .navbar .navbar-nav > .active > a:hover,
+    .navbar .navbar-nav > .active > a:focus{
+        color: red;
+        transition: 0.825s;
+    }
+
+.loginbutton{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartbutton{
+    width: 80px;
+    height: 40px;
+    margin:0.95em;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-text{
+    height:40px;
+    background-color:#b09a84;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.title{
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.lead {
+    font-family: 'Lato',sans-serif;
+}
+
+.container img{
+    width: 100%;
+}
+
+    .container .col-sm-2 img{
+        width: 100%;
+        min-width: 220px;
+        min-height: 240px;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid white;
+    }
+
+    .container .col-md-7 a .firstimage,
+    .container .col-sm-2 a .secondimage{
+        gap:1em;
+    }
+
+.container .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.supercontainer img{
+    width: 100%;
+}
+
+.containermain .col{
+    padding:0;
+    margin:7px;
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.hovertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .hovertext h1{
+        font-size: 0.975rem;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hovertext h1 span{
+        font-size: 0.715rem;
+    }
+
+.containermain img{
+    width: 175px;
+    height: 280px;
+}
+
+    .containermain img:hover{
+        opacity: 0.75;
+    }
+
+
+    .slider{
+        width: 800px;
+        height: 500px;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    
+    .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+    
+    .slides input{
+        display: none;
+    }
+    
+    .slide{
+        width: 20%;
+        transition: 2s;
+    }
+    
+    .slide img{
+        width: 800px;
+        height: 500px;
+        object-fit: fill;
+    }
+    
+    .nav-manual{
+        position: absolute;
+        width: 800px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .manual-btn{
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .manual-btn:not(:last-child){
+        margin-right: 40px;
+    }
+    .manual-btn:hover{
+        background: black;
+    }
+    
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+    }
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+    }
+        
+    .nav-auto{
+        position: absolute;
+        display: flex;
+        width: 800px;
+        justify-content: center;
+        margin-top: 460px;
+    }
+    
+    .nav-auto div{
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    
+    .nav-auto div:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    #radio1:checked ~ .nav-auto .auto-btn1{
+        background: black;
+    }
+    #radio2:checked ~ .nav-auto .auto-btn2{
+        background: black;
+    }
+    #radio3:checked ~ .nav-auto .auto-btn3{
+        background: black;
+    }
+
+
+.brandcontainer img{
+    width: 115px;
+}
+
+.clothescontainer{
+    min-height: 80vh;
+}
+
+
+.innerclothescontainer .col-md{
+    width: 410px;
+    height: 550px;
+    position: relative;
+    align-items: center;
+}
+
+.innerclothescontainer img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.2em;
+}
+
+    .innerclothescontainer figure img,
+    .innerskatecontainer figure img,
+    .accesoriescontainer figure img{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .innerclothescontainer figure:hover img,
+    .innerskatecontainer figure:hover img,
+    .accesoriescontainer figure:hover img{
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.015);
+    }
+
+.innerclothescontainer h1,
+.innerskatecontainer h1{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    color:#dee0de;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top:80%;
+    justify-content: start;
+    align-items: center;
+}
+
+.innerclothescontainer .clothestext span,
+.innerskatecontainer .clothestext span{
+    font-weight: bold;
+}
+
+
+footer{
+    margin-top:10em;
+    min-height: 25vh;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f5f8;
+}
+
+footer p{
+    font-size: 1.05rem;
+    font-family:'Lato',sans-serif;
+    font-weight: bold;
+}
+
+footer .col-md-2 a{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 50px;
+    border-right: 2px solid black;
+}
+
+
+    footer p:hover{
+        text-decoration: underline 2px solid black;
+    }
+
+
+.skateboardcontainer{
+    min-height: 80vh;
+}
+
+.innerskatecontainer{
+    width: 75%;
+}
+
+.innerskatecontainer .col-md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.innerskatecontainer img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 0.2em;
+}
+
+.accesoriescontainer{
+    min-height: 80vh;
+}
+
+.accesoriescontainer img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.2em;
+}
+
+.accesoriescontainer .col-sm-3{
+    display: flex;
+    width:260px;
+    justify-content: center;
+    padding:1.3em;
+}
+
+
+
